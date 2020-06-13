@@ -1,0 +1,5 @@
+spring:
+  application:
+    url: www.google.com/maps
+  profiles:
+    active: dev
