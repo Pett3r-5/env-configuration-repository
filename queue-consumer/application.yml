@@ -1,5 +1,5 @@
 spring:
   application:
-    url: htt://test
+    url: http://test
   profiles:
     active: dev
