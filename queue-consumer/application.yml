@@ -1,5 +1,5 @@
 spring:
   application:
-    url: www.google.com/maps
+    url: htt://test
   profiles:
     active: dev
