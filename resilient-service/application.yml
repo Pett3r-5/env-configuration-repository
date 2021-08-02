@@ -1,0 +1,9 @@
+clientBaseUrl: 'http://localhost:9090'
+fallbackBaseUrl: 'http://localhost:9091'
+resilience:
+  circuitBreaker:
+    failureThreshold: 20
+  halfOpen:
+    callsLimit: 5
+  bulkhead:
+    maxConcurrentCalls: 500
